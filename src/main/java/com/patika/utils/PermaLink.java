@@ -2,5 +2,5 @@ package com.patika.utils;
 
 public class PermaLink {
 
-    //GITHUB : 
+    //GITHUB : https://github.com/Beytullahzor7/PatikaSpringFramework
 }
