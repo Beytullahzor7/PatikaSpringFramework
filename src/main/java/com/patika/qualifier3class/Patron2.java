@@ -1,0 +1,10 @@
+package com.patika.qualifier3class;
+
+@QualifierMultiple2(EnumSecenekler.BIRINCI)
+public class Patron2 implements IPatron {
+
+    @Override
+    public String version(String data) {
+        return "QualifierMultiple 1 " + data;
+    }
+}
