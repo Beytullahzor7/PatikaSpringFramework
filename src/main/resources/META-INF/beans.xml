@@ -5,8 +5,14 @@
                       http://xmlns.jcp.org/xml/ns/javaee/beans_2_0.xsd"
        bean-discovery-mode="all">
 
+<!--    <alternatives>-->
     <alternatives>
         <!--<class>com.patika.alternative.Patron1</class>-->
         <class>com.patika.alternative.Patron2</class>
     </alternatives>
+
+<!--    <interceptors>-->
+    <interceptors>
+        <class>com.patika.aop.interceptor.InterceptorYolKesiciMain</class>
+    </interceptors>
 </beans>
