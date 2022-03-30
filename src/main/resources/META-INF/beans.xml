@@ -15,4 +15,9 @@
     <interceptors>
         <class>com.patika.aop.interceptor.InterceptorYolKesiciMain</class>
     </interceptors>
+
+<!--    <decorators>-->
+    <decorators>
+        <class>com.patika.aop.decorator.EvDecoratorMain</class>
+    </decorators>
 </beans>
